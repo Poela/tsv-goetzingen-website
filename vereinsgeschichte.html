@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TSV Fortuna Götzingen – Vereinsgeschichte</title>
+
+  <!-- Tailwind wie auf der Hauptseite -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme:{ extend:{
+        colors:{ 'club-primary':'#10b981','club-secondary':'#1f2937','club-dark':'#0f172a' },
+        fontFamily:{ sans:['Inter','sans-serif'] }
+      }}
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet"/>
+
+  <style>
+    .card-shadow{box-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)}
+    .hero-bg{
+      background-image:url('https://service.media.fussball.de/api/uimg/cont/-/ID/011MIA3OM0000000VTVG0001VTR8C1K7/TYP/50/SZ/3');
+      background-size:cover;background-position:center
+    }
+    .prose-wrap p{margin-bottom:0.9rem; line-height:1.7}
+    .section-card{background-color:#1f2937}
+  </style>
+</head>
+<body class="bg-club-dark text-gray-200 font-sans">
+  <!-- Header / Breadcrumb -->
+  <header class="hero-bg h-[35vh] flex items-center justify-center p-4 overflow-hidden card-shadow">
+    <div class="text-center bg-black/60 p-6 md:p-10 rounded-2xl max-w-4xl border-4 border-club-primary">
+      <h1 class="text-3xl md:text-5xl font-extrabold text-white uppercase tracking-tight">Vereinsgeschichte</h1>
+      <p class="mt-3 text-club-primary font-semibold">TSV Fortuna Götzingen 1926 – heute</p>
+      <div class="mt-4">
+        <a href="Tsv_Goetzingen.html" class="inline-block px-5 py-2 text-sm font-bold rounded-full bg-club-primary text-club-dark hover:bg-club-primary/80 transition">← Zurück zur Startseite</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <!-- Intro -->
+    <section class="section-card rounded-xl p-6 md:p-8 card-shadow mb-8">
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4 border-b-4 border-club-primary pb-2">Über den Verein</h2>
+      <div class="prose-wrap text-gray-200">
+        <p>Der TSV Fortuna Götzingen ist mit über 350 Mitgliedern der größte Verein in Götzingen. Seine Wurzeln reichen ins Jahr 1926 zurück – eine Geschichte voller Einsatz, Gemeinschaft und Fußballleidenschaft.</p>
+      </div>
+    </section>
+
+    <!-- Inhalt in Abschnitten -->
+    <div class="grid grid-cols-1 gap-8">
+      <!-- Anfangszeit -->
+      <section class="section-card rounded-xl p-6 md:p-8 card-shadow">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-3">Die Anfangszeit (ab 1926)</h3>
+        <div class="prose-wrap text-gray-200">
+          <p>Als Gründungsjahr des damaligen „SV Grün-Weiß Fortuna“ gilt 1926. 14 Gründungsmitglieder waren zugegen; erster Vorsitzender wurde Josef Schwarz. Die ersten Jahre waren geprägt von langen Anreisen mit Pferdefuhrwerk oder Fahrrad und dem ersten Sportfest 1928. 1929 entstand der Sportplatz am heutigen Standort. Ab 1933 nahm der Spielbetrieb aufgrund der politischen Lage ab und kam im Zweiten Weltkrieg zum Erliegen.</p>
+        </div>
+      </section>
+
+      <!-- Neubeginn -->
+      <section class="section-card rounded-xl p-6 md:p-8 card-shadow">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-3">Neubeginn nach dem Zweiten Weltkrieg</h3>
+        <div class="prose-wrap text-gray-200">
+          <p>Am 03.06.1946 wurde der Verein – mit Genehmigung der Militärregierung vom 05.07.1946 – neu gegründet. Aus Mangel an Trikots nutzte man rote Stoffe, woraus sich die Vereinsfarben Schwarz-Rot ergaben. 1947 erfolgte der Registereintrag, 1956 die Umbenennung in TSV. Bereits 1950/51 gelang die Meisterschaft in der B-Klasse und der Aufstieg in die A-Klasse.</p>
+          <p>Ein Höhepunkt dieser Ära: der 29:0-Sieg gegen Bödigheim 1956.</p>
+        </div>
+      </section>
+
+      <!-- 60er -->
+      <section class="section-card rounded-xl p-6 md:p-8 card-shadow">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-3">Die 60er Jahre – 2. Amateurliga</h3>
+        <div class="prose-wrap text-gray-200">
+          <p>1959/60 holte der TSV die A-Klassen-Meisterschaft und stieg in die 2. Amateurliga (heute Landesliga) auf – als kleinste Gemeinde der Liga und mit ausschließlich eigenen Spielern. Nach Abstieg 1962 folgte 1963 der direkte Wiederaufstieg; 1964 ging es in einer extrem engen Tabelle wieder zurück.</p>
+        </div>
+      </section>
+
+      <!-- Ab 1970 -->
+      <section class="section-card rounded-xl p-6 md:p-8 card-shadow">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-3">Ab 1970 bis heute</h3>
+        <div class="prose-wrap text-gray-200">
+          <p>Nach Abstieg 1971 gelang umgehend der Wiederaufstieg. Der Sportplatz wurde 1970/71 renoviert, seit 2008 gibt es eine Beregnungsanlage. 1996 folgte ein weiterer Abstieg, 2008 der Gang in die Kreisklasse B. 2011/12 kehrte man als Meister in die A-Klasse zurück, 2014/15 gelang über die Relegation die Rückkehr in die Kreisliga Buchen. 2016 bestritt der TSV sein „größtes Spiel“ im Verbandspokal gegen den SV Waldhof.</p>
+          <p>Seit 2018/19 spielt der TSV im Seniorenbereich in Spielgemeinschaft mit dem VfL Eberstadt.</p>
+        </div>
+      </section>
+
+      <!-- Erfolge / Stadtmeisterschaften -->
+      <section class="section-card rounded-xl p-6 md:p-8 card-shadow">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-3">Erfolge</h3>
+        <div class="prose-wrap text-gray-200">
+          <p>Mehrfacher Sieger der Stadtmeisterschaften der Stadt Buchen: 1976, 1984, 1993 und 2018.</p>
+        </div>
+      </section>
+
+      <!-- Aktuelles / Feste -->
+      <section class="section-card rounded-xl p-6 md:p-8 card-shadow">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-3">Vereinsleben & Veranstaltungen</h3>
+        <div class="prose-wrap text-gray-200">
+          <p>Zwischen 2006 und 2015 prägte das jährliche Sommerfest „Sommermärchen“ das Vereinsleben – mit wechselnden Ländermottos und der beliebten „Strohballen-WM“ auf dem Mini-Feld. 2016 feierte der TSV sein 90-jähriges Jubiläum.</p>
+        </div>
+      </section>
+
+      <!-- Jugend -->
+      <section class="section-card rounded-xl p-6 md:p-8 card-shadow">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-3">Jugendarbeit</h3>
+        <div class="prose-wrap text-gray-200">
+          <p>Die starke Jugendarbeit trug den TSV – von Meisterschaften in den Anfangsjahren bis hin zum Aufstieg der A-Jugend 1979 in die Main-Neckar-Liga. In den 80ern wurden Spielgemeinschaften mit umliegenden Vereinen wichtig, um den Spielbetrieb zu sichern. Seit 2015 spielen die TSV-Jugendlichen von A bis F in SG-Formationen mit Schlierstadt, Eberstadt und Altheim; die Bambini stellt der TSV selbst.</p>
+        </div>
+      </section>
+
+      <!-- Mädchenfußball -->
+      <section class="section-card rounded-xl p-6 md:p-8 card-shadow">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-3">Mädchen- und Frauenfußball</h3>
+        <div class="prose-wrap text-gray-200">
+          <p>Seit 2006 fördert der TSV gezielt Mädchenfußball. Aus Trainingsgruppen entstanden Teams, die u. a. in der Landesliga antraten. Später spielten die älteren Mädchen in Freizeitligen; mangels Spielerinnen ruht der Frauenfußball derzeit.</p>
+        </div>
+      </section>
+
+      <!-- Turnen -->
+      <section class="section-card rounded-xl p-6 md:p-8 card-shadow">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-3">Abteilung Turnen</h3>
+        <div class="prose-wrap text-gray-200">
+          <p>Seit 1965 bietet der TSV Turn- und Gymnastikangebote, heute mit mehreren Gruppen – vom Eltern-Kind-Turnen bis zur Männergymnastik. Die Abteilung prägt bis heute das vielseitige Sportangebot des Vereins.</p>
+        </div>
+      </section>
+
+      <!-- Infrastruktur -->
+      <section class="section-card rounded-xl p-6 md:p-8 card-shadow">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-3">Infrastruktur: Halle & Sportheim</h3>
+        <div class="prose-wrap text-gray-200">
+          <p>Die Turn- und Festhalle der Gemeinde (Ende der 50er, renoviert 2003/04) sowie das vereinseigene Sportheim (Bau 1977–1980; Einweihung 1983; Sanierungen 2002, 2007 und 2020–2022) sind zentrale Orte für Sport und Gemeinschaft.</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Zurück -->
+    <div class="text-center mt-10">
+      <a href="Tsv_Goetzingen.html" class="inline-block px-6 py-2 text-md font-bold rounded-lg border-2 border-club-primary text-club-primary hover:bg-club-primary hover:text-club-dark transition">
+        ← Zurück zur Startseite
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer klein -->
+  <footer class="bg-club-secondary mt-10 p-6 card-shadow mt-8 pt-4 border-t border-gray-700 text-center text-sm text-gray-400">
+    <div class="">
+      <span>&copy; 2025 TSV Fortuna Götzingen</span>
+    </div>
+  </footer>
+</body>
+</html>
