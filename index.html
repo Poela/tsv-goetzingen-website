@@ -19,17 +19,9 @@
 
   <!-- FUSSBALL.DE Widgets (neu, ohne Domain-Schlüssel) -->
   <script type="text/javascript" src="https://www.fussball.de/widgets.js"></script>
+  <link rel="stylesheet" href="css/styles.css"/>
 
-  <!-- Utility-Styles -->
-  <style>
-    .card-shadow{box-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)}
-    .hero-bg{
-      background-image:url('https://service.media.fussball.de/api/uimg/cont/-/ID/011MIA3OM0000000VTVG0001VTR8C1K7/TYP/50/SZ/3');
-      background-size:cover;background-position:center
-    }
-    /* Rahmen für Widgets, damit sie wie deine Cards wirken */
-    .widget-frame{background-color:#0f172a;border-radius:.75rem;padding:1rem}
-  </style>
+  <script src="js/main.js" defer></script>
 </head>
 <body class="bg-club-dark text-gray-200 font-sans">
 
@@ -221,24 +213,5 @@
       </div>
     </div>
   </footer>
-
-  <!-- JS: Mobile Menü -->
-  <script>
-    document.getElementById('mobile-menu-button').addEventListener('click', function() {
-      const menu = document.getElementById('mobile-menu');
-      const closedIcon = document.getElementById('menu-icon-closed');
-      const openIcon = document.getElementById('menu-icon-open');
-      menu.classList.toggle('hidden');
-      closedIcon.classList.toggle('hidden');
-      openIcon.classList.toggle('hidden');
-    });
-    document.querySelectorAll('#mobile-menu a').forEach(link => {
-      link.addEventListener('click', () => {
-        document.getElementById('mobile-menu').classList.add('hidden');
-        document.getElementById('menu-icon-closed').classList.remove('hidden');
-        document.getElementById('menu-icon-open').classList.add('hidden');
-      });
-    });
-  </script>
 </body>
 </html>
